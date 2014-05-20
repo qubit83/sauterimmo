@@ -1,0 +1,314 @@
+body {
+	margin-top:12px;
+	font-family: Verdana, Helvetica;
+	font-size:10pt;
+	background-color:#EEEEEE;
+	color:#666666;
+}
+
+/* the main DIVs and the surrounding DIV */
+div#main {
+	background-color:#FFFFFF;
+	border-bottom-width:8px;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div#header {
+	height:350px; 
+	margin-bottom:20px;
+	margin-top:10px;
+}
+
+div#navi {
+	float:left;
+	width:290px;
+	height:220px;
+	margin-top:70px;
+	margin-left:10px;
+	
+	font-size:10pt;
+}
+
+div#sub_navi {
+	margin-left:25px;
+	
+	font-size:8pt;
+}
+
+div#text { 
+	float:none;
+	width:690px;
+	margin-left:300px; 
+	margin-right:10px;
+	margin-bottom:20px;
+	
+	overflow:hidden;
+}
+
+div#footer_left {
+	float:left; 
+	width:300px; 
+	
+	overflow:hidden; 
+}
+
+div#footer_right {
+	float:none;
+	margin-left:300px;  
+	margin-bottom:15px;
+	
+	overflow:hidden; 
+}
+
+div#text_start {
+	height:150px;
+	margin-top:80px;
+	margin-bottom:auto;
+	
+	background-image:url(../bilder/sauter.jpg); 
+	background-repeat:no-repeat; 
+	background-position:400px 0px;
+}
+
+/* Navigation */
+#navi ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+#navi li {
+	margin:0;
+}
+
+#sub_navi ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+#sub_navi li {
+	margin:0;
+}
+
+/* Bordered */
+.bordered {
+	border-style:solid;
+	border-color:#5585D8;
+	border-width:1px;
+}
+
+.gray_bordered {
+	border-style:solid;
+	border-color:#666666;
+	border-width:1px;
+	
+	padding:10px;
+}
+
+.top_bordered {
+	border-style:solid; 
+	border-width:0px;
+	border-color:#5585D8;
+	border-top-width:1px;
+}
+
+.bottom_bordered {
+	border-style:solid;
+	border-width:0px;
+	border-color:#5585D8;
+	border-bottom-width:1px;
+	
+	margin-bottom:20px;
+}
+
+.unbordered {
+	border:none;
+}
+
+/* Tables */
+table.employee {
+	width:100%;
+}
+
+.employee tr {
+	vertical-align:top;
+	text-align:left;
+}
+
+.employee td {
+	vertical-align:top;
+	text-align:left;
+}
+
+.links td {
+	vertical-align:middle; 
+	background-color:#FFFFFF;
+}
+
+.links td.hover:hover {
+	background-color:#EEEEEE;
+}
+
+/* Links */
+a:link {
+	/*color: #5585D8;*/
+	color:#666666;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+a:visited {
+	/*color: #5585D8;*/
+	color:#666666;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+a:active {
+	color:#5585D8;
+}
+
+a:hover {
+	color:#5585D8;
+}
+
+#navi a:link {
+	color:#666666;
+	font-weight:bold;
+	text-decoration:none;
+	line-height:1.4em;
+	letter-spacing:0.2em;
+}
+
+#navi a:visited {
+	color:#666666;
+	font-weight:bold;
+	text-decoration:none;
+	line-height:1.4em;
+	letter-spacing:0.2em;
+}
+
+#navi a:active {
+	color:#5585D8;
+}
+
+#navi a:hover {
+	color:#5585D8;
+}
+
+#navi a:link.sub_nav {
+	color:#5585D8;
+	font-weight:bold;
+	text-decoration:none;
+	line-height:1.4em;
+	letter-spacing:0.2em;
+}
+
+#navi a:visited.sub_nav {
+	color:#5585D8;
+	font-weight:bold;
+	text-decoration:none;
+	line-height:1.4em;
+	letter-spacing:0.2em;
+}
+
+#navi a:active.sub_nav {
+	color:#5585D8;
+}
+
+#navi a:hover.sub_nav {
+	color:#5585D8;
+}
+
+#navi a:link.active_nav {
+	color:#5585D8;
+	font-weight:bold;
+	text-decoration:none;
+	line-height:1.4em;
+	letter-spacing:0.2em;
+}
+
+#navi a:visited.active_nav {
+	color:#5585D8;
+	font-weight:bold;
+	text-decoration:none;
+	line-height:1.4em;
+	letter-spacing:0.2em;
+}
+
+#navi a:active.active_nav {
+	color:#5585D8;
+}
+
+#navi a:hover.active_nav {
+	color:#5585D8;
+}
+
+/* List elements with images */
+li.pdf {
+		list-style-image:url(../icon/PDF.jpg);
+}
+
+li.mail {
+		list-style-image:url(../icon/mail.jpg);
+}
+
+li.phone {
+		list-style-image:url(../icon/phone.jpg);
+}
+
+li.adresse {
+		list-style-image:url(../icon/adresse.jpg);
+}
+
+/* Helper classes */
+.clear_left {
+	clear:left;
+}
+
+.address {
+	color: #666666;
+	font-size:8pt;
+}
+
+.copyright {
+	color: #BBBBBB;
+	font-size:7pt;
+	margin-left:10px;
+}
+
+.copyright a:link {
+	color:#BBBBBB;
+	font-weight:normal;
+	text-decoration: none;
+}
+
+.leftPhoto {
+	width:55%;
+}
+
+.active {
+	color:#5585D8;
+}
+
+.change {
+	background-color:#EEEEEE;
+}
+
+.code {
+	font-family:Monospace;
+}
+
+.pointer {
+	cursor:pointer;
+}
+
+.sub_menu {
+	list-style: none; 
+	display: inline;
+}

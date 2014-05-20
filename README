@@ -1,0 +1,13 @@
+About sauterimmo
+----------------
+HTML/CSS only webpage with iframe to external immo sites. 
+
+How to Deploy
+-------------
+Copy everything below /src/main/html to httpdocs or httpsdocs.
+
+About File Structure
+--------------------
+/src/main/html - main folder for html/css sources
+/src/main/resources - resources used for development (large images, other formats, ...)
+/src/test - testing folder 
